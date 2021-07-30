@@ -1,0 +1,36 @@
+.app__sidebarLogo {
+    object-fit: contain;
+    padding-left: 18px;
+}
+
+.app__sidebarOption {
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    align-items:center;
+    cursor: pointer;
+}
+
+.app__sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.app__sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.app__sidebarOption:hover {
+    background-color: #E3F3FE;
+    border-radius: 23px;
+    color: #1DA1F2;
+}
+.sidebaroptionIcon{
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sidebaroptionText{
+    align-items: center;
+}
