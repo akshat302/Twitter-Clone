@@ -25,6 +25,7 @@
     background-color: #E3F3FE;
     border-radius: 23px;
     color: #1DA1F2;
+    transition: color 100ms ease-out;
 }
 .sidebaroptionIcon{
     align-items: center;
