@@ -1,7 +1,7 @@
 import './App.css';
 import React, {Component, useState, useEffect } from 'react';
-import SidebarComponent from './Components/SidebarComponent';
 import Sidebar from './Components/SidebarComponent';
+import Feed from './Components/FeedComponent';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </div>
 
       <div className="app__feed">
-        
+        <Feed />
       </div>
 
       <div className="app__widget">
