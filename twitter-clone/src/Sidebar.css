@@ -34,3 +34,14 @@
 .sidebaroptionText{
     align-items: center;
 }
+
+.button__tweet{
+    background-color: #1DA1F2 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    height: 50px;
+    margin-top: 20px !important;
+    border: none !important;
+}

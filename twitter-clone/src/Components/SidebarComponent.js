@@ -9,7 +9,7 @@ import BookmarkBorderOutlinedIcon from '@material-ui/icons/BookmarkBorderOutline
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import PersonIcon from '@material-ui/icons/Person';
 import MoreIcon from '@material-ui/icons/More';
-
+import { Button } from '@material-ui/core';
 
 function Sidebar() {
     return (
@@ -30,6 +30,7 @@ function Sidebar() {
                 <SidebarOptions Icon={MoreIcon} option={'More'} />
             </div>
             
+            <Button variant='outlined' className='button__tweet' fullWidth>Tweet</Button>
         </div>
     )
 }
