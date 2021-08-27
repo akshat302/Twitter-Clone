@@ -23,3 +23,38 @@
     border-radius: 50%;
     transition: color 100ms ease-out;
 }
+
+.tweetBox__input {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+}
+
+.tweetBox__button {
+    background-color: #1DA1F2 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    height: 40px;
+    width: 80px;
+    margin-top: 10px !important;
+    border: none !important;
+    float: right !important;   
+}
+
+.tweetBox__input > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.tweetBox_uploadImg{
+    margin-left: 10px;
+    display: flex;
+}
+
+.tweetBox_uploadImg > input{
+    flex:1;
+}
